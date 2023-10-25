@@ -1,10 +1,9 @@
 import './App.css';
-import HelloWorld from './components/HelloWorld'
-import SayMyName from './components/SayMyName'
+import Frase from './components/Frase'
+import List from './components/List'
 
 function App() {
-  const name = "Maju"
-  const idade = 16
+  const name = "Guilherme"
   const url = 'https://via.placeholder.com/150'
 
   return (
@@ -14,9 +13,10 @@ function App() {
       <h1>Olá mundo</h1>
       <p>Meu primeiro React, meu nome é {name}</p>
       <img src={url} alt="Imagem" />
-      <HelloWorld />
-      <SayMyName name="Guilherme" idade="19" />
-      <SayMyName name={name} idade={idade} />
+      <Frase/>
+      <List/>
+      
+      
 
     </div>
 
