@@ -1,6 +1,9 @@
 import './App.css';
+import Evento from './components/Evento';
+import Form from './components/Form';
 import Frase from './components/Frase'
 import List from './components/List'
+
 
 function App() {
   const name = "Guilherme"
@@ -15,9 +18,8 @@ function App() {
       <img src={url} alt="Imagem" />
       <Frase/>
       <List/>
-      
-      
-
+      <Form/>
+      <Evento/>
     </div>
 
   );

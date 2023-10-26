@@ -9,10 +9,6 @@ function List() {
             <CarrosLista nome="Gol" modelo="Volkswagen" ano={1998} />
             <CarrosLista nome="Celta" modelo="Chevrolet" ano={2004} />
             <CarrosLista nome="Palio" modelo="Fiat" ano={2008} />
-            <CarrosLista />
-            <CarrosLista />
-            <CarrosLista />
-            <CarrosLista />
             </ul>
 
         </div>
